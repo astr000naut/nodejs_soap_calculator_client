@@ -38,7 +38,7 @@ const main = async () => {
             const result = await calculate(operator, firstNum, secondNum);
             console.log(result);
             const ctn = prompt('Continue (y|n):');
-            if (ctn == "n") {
+            if (ctn != "y") {
                 break;
             }
         }
